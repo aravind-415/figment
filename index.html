@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<title>Car Details</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="container-fluid  ">
+
+    <!--######################### Nav Bar ######################### -->
+
+    <div class="nav justify-content-lg-between ">
+        <div class="nav-logo d-flex ">
+            <img class="icon" src="Images/icon.jpg" alt="icon" width="100px" height="80"> 
+            <img class="logo" src="Images/Logo.png" alt="logo" width="170px" height="50px">
+        </div>
+        <div class="nav-ele" >
+            <ul class="d-flex ">
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Models</a></li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <input class="text" type="text" placeholder="search...">
+            <a class="search"><img src="Images/search-icon.png" alt="search" width="40px" height="40px"></a>
+        </div>
+    </div>
+
+    <!--########################## Header ##########################-->
+    <div class="container d-flex justify-content-between  ">
+        <div class="cars">
+            <h1>Fill the details of <br>your car and get the <br> best price prediction</h1>
+        </div>
+
+        <div class="login-box ">
+            <h2>Car Details</h2>
+            <form>
+                <div class="user-box">
+                    <input type="text" name="" required="">
+                    <label>Car Model</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="" required="">
+                    <label>Year</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="" required="">
+                    <label>Fuel Type</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="" required="">
+                    <label>KM Driven</label>
+                </div>
+
+                <a href="#" class="container ">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Submit
+                </a>
+            </form>
+        </div>
+    </div>
+<!--######################## OUTPUT #############################-->
+    <div class="output container ">
+        <img src="Images/Car.png" alt="car" width="100%" height="600">
+        <h2 class="car-name">Ferrari</h2>
+        <div class="details d-flex justify-content-around ">
+            <div class="det">
+                <h3>8,573</h3>
+                <p>KM Driven</p>
+            </div>
+            <div class="det">
+                <h3>2017</h3>
+                <p>Year</p>
+            </div>
+            <div class="det">
+                <h3>Petrol</h3>
+                <p>Fuel Type</p>
+            </div>
+            <div class="det">
+                <h3>296 GTB</h3>
+                <p>Model</p>
+            </div>
+            <div class="price">
+                <h3>₹5,40,00,000 Cr</h3>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
